@@ -1,0 +1,39 @@
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.section-title {
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #d4af37 !important;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
